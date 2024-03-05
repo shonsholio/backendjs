@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaussers Clean 2024</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/minty/bootstrap.min.css" integrity="sha384-H4X+4tKc7b8s4GoMrylmy2ssQYpDHoqzPa9aKXbDwPoPUA3Ra8PA5dGzijN+ePnH" crossorigin="anonymous">
+</head>
+<body>
+  <div class="table">
+
+  </div>
+  <div class="card text-light bg-secondary">
+    <h1>Jaussers Clean 2024</h1>
+  </div>
+  <div class="card-body">
+    <form action="/add" method="post">
+      <div class="form-group">
+        <div class="text-dark">
+          <label for="fecha" >Fecha</label>
+          <input type="date" name="fecha">
+        </div>
+        <div class="text-dark">
+          <label for="propiedad" >Propiedad</label>
+          <select type="text" name="propiedad">
+            <option>Seleccionar</option>
+            <option value="Mirador 510">Mirador 510</option>
+            <option value="Mirador 702">Mirador 702</option>
+            <option value="Naxos 409">Naxos 409</option>
+            <option value="SoHo 306a">SoHo 306A</option>
+            <option value="SoHo 501a">SoHo 501A</option>
+          </select
+        </div>
+        <div class="text-dark">
+          <label for="colaborador">Colaborador</label>
+          <select type="text" name="colaborador">
+            <option>Seleccionar</option>
+            <option value="Rosa">Rosa</option>
+            <option value="Rosiris">Rosiris</option>
+          </select>
+        </div>
+        <div class="text-dark">
+          <label for="valor" >Valor</label>
+          <input type="number" name="valor">
+        </div>
+        <div class="text-dark">
+          <label for="estado">Estado</label>
+          <select type="text" name="estado">
+            <option>Seleccionar</option>
+            <option value="Pendiente">Pdte de Pago</option>
+            <option value="Pagado">Pagado</option>
+          </select>
+        </div>
+        <div class="text-dark">
+          <label for="observaciones" >Observaciones</label>
+          <input type="text" name="observaciones">
+        </div>
+      </form>
+      <button type="submit" class="btn btn-dark">Guardar</button>
+    </div>
+  </div>
+
+</body>
+</html>
